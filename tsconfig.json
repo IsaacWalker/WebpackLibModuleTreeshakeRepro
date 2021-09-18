@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "module": "ESNext",
+        "target": "ESNext",
+        "outDir": "dist",
+        "jsx": "react",
+        "skipLibCheck": true
+    },
+    "include": ["src/**/*.ts"],
+    "ts-node": {
+        "compilerOptions": {
+            "allowSyntheticDefaultImports": true,
+            "esModuleInterop": true,
+            "module": "CommonJS"
+        }
+    }
+}
